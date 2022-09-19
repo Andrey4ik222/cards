@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+.content {
+  height: 100%;
+  width: 100%;
+}
+.item {
+  border: 1px solid;
+  width: calc(33.3333% - 19px);
+  height: 250px;
+  background-color: rgb(210, 217, 240);
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: calc(0.5em + 4px);
+}
+.foto {
+  display: block;
+  height: auto;
+  width: auto;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.3vw;
+}
+.cena {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.3vw;
+}
